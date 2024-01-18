@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border:10px solid #1d1e4c;
+
+}
+.contant{
+    max-width: 900px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+}
+h4{
+    font-size: 30px;
+    color: #1d1e4c;
+    text-align: right;
+}
+.Img,img{
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+}
+.top-section{
+    display:flex;
+    /* justify-content:center; */
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: flex-end;
+    
+    
+}
+ .about{
+    margin-top: 50px;
+ }
+
+ .Paragraph{
+    margin-top: 10px;
+    line-height:1.8;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+
+ }
+ 
+ .headings{
+    margin-top: 50px;
+    margin-bottom: 20px;
+ }
+ .biography ul {
+    line-height: 1.8;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+ }
+ .footer-section{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+
+ }
